@@ -1,0 +1,14 @@
+.login_container{
+background-color: rgba(36, 21, 202, 0.842);
+}
+.input_container{
+    background-color: rgba(110, 101, 206, 0.644);
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+}

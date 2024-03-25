@@ -1,0 +1,21 @@
+
+/* Apply the border-box box-sizing to all elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set the font family for the body using Tailwind's font classes */
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Include Tailwind CSS directives */
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  .disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
